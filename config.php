@@ -16,8 +16,7 @@ define('SQL_DATABASE', 'grupoperti');
 define('SQL_USER', 'root');
 define('SQL_PASSWORD',''); 
 
-define('USER_PAC', '');
-define('PW_PAC', '');
+
 
 /** SMTP **/
 define('SMTP_HOST','');
@@ -26,16 +25,9 @@ define('SMTP_PASS','');
 define('SMTP_PORT','587'); 
 
 
-
-
-
 /** NOMBRE DEL SISTEMA **/
 
 define('PROJECT_NAME', 'Examen tecnico');
 define('RAZONSOCIAL', '');
-
-
-
-
 
 ?>
