@@ -101,7 +101,28 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
 }else if($_SERVER['REQUEST_METHOD'] == 'POST'){
 	    $datos=json_decode(file_get_contents('php://input'));;
 		switch($datos->opcion){	
+		case "UpdateUserPass":
+				$errores=array();
+				if(strlen(trim($datos->passwd)) == 0){
+					$errores[]="contraseña obligatoria";
+				}else if (trim($datos->passwd)!=trim($datos->passwd2)) {
+					$errores[]="Contraseñas no coinciden";
+				}else if($usuario->Repetido(trim($datos->email))){
+					$errores[]="Email ya se encuentra registrado";
+				}
 
+				if(count($errores)>0){
+					$resultado["status"]="fail";
+	 				$resultado["error"]=$errores;
+				}else{
+					$usuario->setUsuarioId($datos->usuarioId);
+					$usuario->setPasswd($datos->passwd);
+					$usuario->UpdatePass();
+					$resultado["status"]="ok";
+					$resultado["mensaje"]="Contraseña actualizada exitosamente";
+				}
+			
+		break;
 		  case "UpdateUser":
 		  		$usuario->setUsuarioId($datos->usuarioId);
 			    $infoUusario=$usuario->InfoUsuario();
