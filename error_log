@@ -1,0 +1,142 @@
+[18-Feb-2020 11:33:28 America/Mexico_City] PHP Warning:  include_once(/home/dentalc6/public_html/web/librerias.php): failed to open stream: No such file or directory in /home/dentalc6/public_html/index.php on line 5
+[18-Feb-2020 11:33:28 America/Mexico_City] PHP Warning:  include_once(): Failed opening '/home/dentalc6/public_html/web/librerias.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dentalc6/public_html/index.php on line 5
+[18-Feb-2020 11:33:28 America/Mexico_City] PHP Fatal error:  Call to a member function assign() on null in /home/dentalc6/public_html/index.php on line 32
+[04-Mar-2020 19:49:55 America/Mexico_City] PHP Warning:  include_once(/home/dentalc6/public_html/admin/librerias/mail/PHPMailer.php.php): failed to open stream: No such file or directory in /home/dentalc6/public_html/librerias.php on line 16
+[04-Mar-2020 19:49:55 America/Mexico_City] PHP Warning:  include_once(): Failed opening '/home/dentalc6/public_html/admin/librerias/mail/PHPMailer.php.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dentalc6/public_html/librerias.php on line 16
+[04-Mar-2020 19:50:21 America/Mexico_City] PHP Warning:  include_once(/home/dentalc6/public_html/admin/librerias/mail/PHPMailer.php): failed to open stream: No such file or directory in /home/dentalc6/public_html/librerias.php on line 16
+[04-Mar-2020 19:50:21 America/Mexico_City] PHP Warning:  include_once(): Failed opening '/home/dentalc6/public_html/admin/librerias/mail/PHPMailer.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dentalc6/public_html/librerias.php on line 16
+[05-Mar-2020 02:04:19 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/dentalc6/public_html/index.php on line 48
+[05-Mar-2020 02:04:24 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/dentalc6/public_html/index.php on line 48
+[05-Mar-2020 02:04:36 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/dentalc6/public_html/index.php on line 48
+[05-Mar-2020 02:04:45 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/dentalc6/public_html/index.php on line 48
+[05-Mar-2020 02:05:40 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/dentalc6/public_html/index.php on line 48
+[04-Mar-2020 20:07:15 America/Mexico_City] PHP Parse error:  syntax error, unexpected '}' in /home/dentalc6/public_html/admin/classes/correo.class.php on line 22
+[04-Mar-2020 20:07:36 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 20:09:12 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 20:13:02 America/Mexico_City] PHP Warning:  include_once(/home/dentalc6/public_html/admin/classes/sendmail.class.php): failed to open stream: No such file or directory in /home/dentalc6/public_html/librerias.php on line 18
+[04-Mar-2020 20:13:02 America/Mexico_City] PHP Warning:  include_once(): Failed opening '/home/dentalc6/public_html/admin/classes/sendmail.class.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dentalc6/public_html/librerias.php on line 18
+[04-Mar-2020 20:13:02 America/Mexico_City] PHP Fatal error:  Class 'SendMail' not found in /home/dentalc6/public_html/librerias.php on line 19
+[04-Mar-2020 20:14:07 America/Mexico_City] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Message body empty' in /home/dentalc6/public_html/admin/classes/class.phpmailer.php:1270
+Stack trace:
+#0 /home/dentalc6/public_html/admin/classes/class.phpmailer.php(1210): PHPMailer->preSend()
+#1 /home/dentalc6/public_html/admin/classes/correo.class.php(50): PHPMailer->send()
+#2 /home/dentalc6/public_html/index.php(51): Correo->envio()
+#3 {main}
+  thrown in /home/dentalc6/public_html/admin/classes/class.phpmailer.php on line 1270
+[04-Mar-2020 20:15:04 America/Mexico_City] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Message body empty' in /home/dentalc6/public_html/admin/classes/class.phpmailer.php:1270
+Stack trace:
+#0 /home/dentalc6/public_html/admin/classes/class.phpmailer.php(1210): PHPMailer->preSend()
+#1 /home/dentalc6/public_html/admin/classes/correo.class.php(50): PHPMailer->send()
+#2 /home/dentalc6/public_html/index.php(51): Correo->envio()
+#3 {main}
+  thrown in /home/dentalc6/public_html/admin/classes/class.phpmailer.php on line 1270
+[04-Mar-2020 20:15:51 America/Mexico_City] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Message body empty' in /home/dentalc6/public_html/admin/classes/class.phpmailer.php:1270
+Stack trace:
+#0 /home/dentalc6/public_html/admin/classes/class.phpmailer.php(1210): PHPMailer->preSend()
+#1 /home/dentalc6/public_html/admin/classes/correo.class.php(50): PHPMailer->send()
+#2 /home/dentalc6/public_html/index.php(51): Correo->envio()
+#3 {main}
+  thrown in /home/dentalc6/public_html/admin/classes/class.phpmailer.php on line 1270
+[04-Mar-2020 20:16:11 America/Mexico_City] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Message body empty' in /home/dentalc6/public_html/admin/classes/class.phpmailer.php:1270
+Stack trace:
+#0 /home/dentalc6/public_html/admin/classes/class.phpmailer.php(1210): PHPMailer->preSend()
+#1 /home/dentalc6/public_html/admin/classes/correo.class.php(50): PHPMailer->send()
+#2 /home/dentalc6/public_html/index.php(51): Correo->envio()
+#3 {main}
+  thrown in /home/dentalc6/public_html/admin/classes/class.phpmailer.php on line 1270
+[04-Mar-2020 20:17:16 America/Mexico_City] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Message body empty' in /home/dentalc6/public_html/admin/classes/class.phpmailer.php:1270
+Stack trace:
+#0 /home/dentalc6/public_html/admin/classes/class.phpmailer.php(1210): PHPMailer->preSend()
+#1 /home/dentalc6/public_html/admin/classes/correo.class.php(50): PHPMailer->send()
+#2 /home/dentalc6/public_html/index.php(51): Correo->envio()
+#3 {main}
+  thrown in /home/dentalc6/public_html/admin/classes/class.phpmailer.php on line 1270
+[04-Mar-2020 20:17:50 America/Mexico_City] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting' in /home/dentalc6/public_html/admin/classes/class.phpmailer.php:1541
+Stack trace:
+#0 /home/dentalc6/public_html/admin/classes/class.phpmailer.php(1335): PHPMailer->smtpSend('Date: Wed, 4 Ma...', 'This is a multi...')
+#1 /home/dentalc6/public_html/admin/classes/class.phpmailer.php(1213): PHPMailer->postSend()
+#2 /home/dentalc6/public_html/admin/classes/correo.class.php(50): PHPMailer->send()
+#3 /home/dentalc6/public_html/index.php(52): Correo->envio()
+#4 {main}
+  thrown in /home/dentalc6/public_html/admin/classes/class.phpmailer.php on line 1541
+[04-Mar-2020 20:20:20 America/Mexico_City] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting' in /home/dentalc6/public_html/admin/classes/class.phpmailer.php:1541
+Stack trace:
+#0 /home/dentalc6/public_html/admin/classes/class.phpmailer.php(1335): PHPMailer->smtpSend('Date: Wed, 4 Ma...', 'This is a multi...')
+#1 /home/dentalc6/public_html/admin/classes/class.phpmailer.php(1213): PHPMailer->postSend()
+#2 /home/dentalc6/public_html/admin/classes/correo.class.php(51): PHPMailer->send()
+#3 /home/dentalc6/public_html/index.php(52): Correo->envio()
+#4 {main}
+  thrown in /home/dentalc6/public_html/admin/classes/class.phpmailer.php on line 1541
+[04-Mar-2020 20:25:02 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 20:25:44 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 20:25:46 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 20:26:53 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 20:26:55 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 20:27:08 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 20:27:10 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 20:27:33 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 20:27:42 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 4
+[04-Mar-2020 20:28:22 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 20:29:05 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 20:29:29 America/Mexico_City] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting' in /home/dentalc6/public_html/admin/classes/class.phpmailer.php:1541
+Stack trace:
+#0 /home/dentalc6/public_html/admin/classes/class.phpmailer.php(1335): PHPMailer->smtpSend('Date: Wed, 4 Ma...', 'This is a multi...')
+#1 /home/dentalc6/public_html/admin/classes/class.phpmailer.php(1213): PHPMailer->postSend()
+#2 /home/dentalc6/public_html/admin/classes/correo.class.php(51): PHPMailer->send()
+#3 /home/dentalc6/public_html/index.php(52): Correo->envio()
+#4 {main}
+  thrown in /home/dentalc6/public_html/admin/classes/class.phpmailer.php on line 1541
+[04-Mar-2020 20:36:16 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 20:57:28 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 21:00:27 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 21:00:36 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 21:00:38 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 21:00:51 America/Mexico_City] PHP Fatal error:  Class 'PHPMailer' not found in /home/dentalc6/public_html/admin/classes/correo.class.php on line 33
+[04-Mar-2020 21:01:04 America/Mexico_City] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting' in /home/dentalc6/public_html/admin/classes/class.phpmailer.php:1541
+Stack trace:
+#0 /home/dentalc6/public_html/admin/classes/class.phpmailer.php(1335): PHPMailer->smtpSend('Date: Wed, 4 Ma...', 'This is a multi...')
+#1 /home/dentalc6/public_html/admin/classes/class.phpmailer.php(1213): PHPMailer->postSend()
+#2 /home/dentalc6/public_html/admin/classes/correo.class.php(51): PHPMailer->send()
+#3 /home/dentalc6/public_html/index.php(52): Correo->envio()
+#4 {main}
+  thrown in /home/dentalc6/public_html/admin/classes/class.phpmailer.php on line 1541
+[04-Mar-2020 21:05:55 America/Mexico_City] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting' in /home/dentalc6/public_html/admin/classes/class.phpmailer.php:1541
+Stack trace:
+#0 /home/dentalc6/public_html/admin/classes/class.phpmailer.php(1335): PHPMailer->smtpSend('Date: Wed, 4 Ma...', 'This is a multi...')
+#1 /home/dentalc6/public_html/admin/classes/class.phpmailer.php(1213): PHPMailer->postSend()
+#2 /home/dentalc6/public_html/admin/classes/correo.class.php(51): PHPMailer->send()
+#3 /home/dentalc6/public_html/index.php(52): Correo->envio()
+#4 {main}
+  thrown in /home/dentalc6/public_html/admin/classes/class.phpmailer.php on line 1541
+[13-Apr-2020 10:14:29 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mb_internal_encoding() in /home/dentalc6/public_html/init.php:12
+Stack trace:
+#0 /home/dentalc6/public_html/index.php(3): include_once()
+#1 {main}
+  thrown in /home/dentalc6/public_html/init.php on line 12
+[13-Apr-2020 10:16:25 America/Mexico_City] PHP Warning:  Use of undefined constant DOC_ROOT_MOBIL - assumed 'DOC_ROOT_MOBIL' (this will throw an Error in a future version of PHP) in /home/dentalc6/public_html/librerias.php on line 28
+[13-Apr-2020 10:16:44 America/Mexico_City] PHP Warning:  Use of undefined constant DOC_ROOT_MOBIL - assumed 'DOC_ROOT_MOBIL' (this will throw an Error in a future version of PHP) in /home/dentalc6/public_html/librerias.php on line 28
+[13-Apr-2020 10:17:53 America/Mexico_City] PHP Warning:  Use of undefined constant DOC_ROOT_MOBIL - assumed 'DOC_ROOT_MOBIL' (this will throw an Error in a future version of PHP) in /home/dentalc6/public_html/librerias.php on line 28
+[29-May-2020 17:04:24 America/Mexico_City] PHP Warning:  include_once(/home/dentalc6/public_html/pagina-prueba/admin/classes/db.class.php): failed to open stream: No such file or directory in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 4
+[29-May-2020 17:04:24 America/Mexico_City] PHP Warning:  include_once(): Failed opening '/home/dentalc6/public_html/pagina-prueba/admin/classes/db.class.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 4
+[29-May-2020 17:04:24 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/dentalc6/public_html/pagina-prueba/librerias.php:5
+Stack trace:
+#0 /home/dentalc6/public_html/pagina-prueba/index.php(5): include_once()
+#1 {main}
+  thrown in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 5
+[30-May-2020 20:54:26 America/Mexico_City] PHP Warning:  require(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 2
+[30-May-2020 20:54:26 America/Mexico_City] PHP Warning:  require(https://dentalcoid.com/admin/librerias/smarty/libs/Smarty.class.php): failed to open stream: no suitable wrapper could be found in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 2
+[30-May-2020 20:54:26 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'https://dentalcoid.com/admin/librerias/smarty/libs/Smarty.class.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 2
+[30-May-2020 20:56:17 America/Mexico_City] PHP Warning:  require(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 3
+[30-May-2020 20:56:17 America/Mexico_City] PHP Warning:  require(https://dentalcoid.com/admin/librerias/smarty/libs/Smarty.class.php): failed to open stream: no suitable wrapper could be found in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 3
+[30-May-2020 20:56:17 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'https://dentalcoid.com/admin/librerias/smarty/libs/Smarty.class.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 3
+[30-May-2020 20:57:35 America/Mexico_City] PHP Warning:  require(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 3
+[30-May-2020 20:57:35 America/Mexico_City] PHP Warning:  require(https://dentalcoid.com/admin/librerias/smarty/libs/Smarty.class.php): failed to open stream: no suitable wrapper could be found in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 3
+[30-May-2020 20:57:35 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'https://dentalcoid.com/admin/librerias/smarty/libs/Smarty.class.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 3
+[30-May-2020 20:58:10 America/Mexico_City] PHP Warning:  include_once(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 5
+[30-May-2020 20:58:10 America/Mexico_City] PHP Warning:  include_once(https://dentalcoid.com/admin/classes/db.class.php): failed to open stream: no suitable wrapper could be found in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 5
+[30-May-2020 20:58:10 America/Mexico_City] PHP Warning:  include_once(): Failed opening 'https://dentalcoid.com/admin/classes/db.class.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 5
+[30-May-2020 20:58:10 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/dentalc6/public_html/pagina-prueba/librerias.php:6
+Stack trace:
+#0 /home/dentalc6/public_html/pagina-prueba/index.php(5): include_once()
+#1 {main}
+  thrown in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 6

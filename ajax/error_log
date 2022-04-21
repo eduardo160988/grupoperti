@@ -1,0 +1,23 @@
+[27-May-2020 01:17:14 America/Mexico_City] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/dentalc6/public_html/admin/classes/db.class.php on line 109
+[27-May-2020 01:17:14 America/Mexico_City] PHP Notice:   in /home/dentalc6/public_html/admin/classes/db.class.php on line 109
+[30-May-2020 20:49:27 America/Mexico_City] PHP Warning:  include_once(../admin/classes/db.class.php): failed to open stream: No such file or directory in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 4
+[30-May-2020 20:49:27 America/Mexico_City] PHP Warning:  include_once(): Failed opening '../admin/classes/db.class.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 4
+[30-May-2020 20:49:27 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/dentalc6/public_html/pagina-prueba/librerias.php:5
+Stack trace:
+#0 /home/dentalc6/public_html/pagina-prueba/ajax/contacto.php(5): include_once()
+#1 {main}
+  thrown in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 5
+[30-May-2020 20:50:15 America/Mexico_City] PHP Warning:  include_once(../admin/classes/db.class.php): failed to open stream: No such file or directory in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 4
+[30-May-2020 20:50:15 America/Mexico_City] PHP Warning:  include_once(): Failed opening '../admin/classes/db.class.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 4
+[30-May-2020 20:50:15 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/dentalc6/public_html/pagina-prueba/librerias.php:5
+Stack trace:
+#0 /home/dentalc6/public_html/pagina-prueba/ajax/contacto.php(5): include_once()
+#1 {main}
+  thrown in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 5
+[30-May-2020 20:51:11 America/Mexico_City] PHP Warning:  include_once(../admin/classes/db.class.php): failed to open stream: No such file or directory in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 4
+[30-May-2020 20:51:11 America/Mexico_City] PHP Warning:  include_once(): Failed opening '../admin/classes/db.class.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 4
+[30-May-2020 20:51:11 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/dentalc6/public_html/pagina-prueba/librerias.php:5
+Stack trace:
+#0 /home/dentalc6/public_html/pagina-prueba/ajax/contacto.php(5): include_once()
+#1 {main}
+  thrown in /home/dentalc6/public_html/pagina-prueba/librerias.php on line 5
