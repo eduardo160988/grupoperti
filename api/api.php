@@ -17,9 +17,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
 		  break;
 		  case "getUsuario":	
 		  		$usuario->setUsuarioId($_GET["id"]);
-		  		$infoUusario=$usuario->InfoUsuario();
+		  		$infoUsuario=$usuario->InfoUsuario();
 							
-				if($infoUusario){
+				if($infoUsuario){
 					$resultado["status"]="ok";
 					$resultado["data"]= $infoUsuario;
 				}else{
@@ -170,7 +170,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
 					$usuario->UpdateUsuario();
 					$resultado["status"]="ok";
 					$usuario->setUsuarioId($datos->usuarioId);
-			  		$infoUusario=$usuario->InfoUsuario();
+			  		$infoUsuario=$usuario->InfoUsuario();
 			  		$resultado["data"]= $infoUsuario;
 
 					
